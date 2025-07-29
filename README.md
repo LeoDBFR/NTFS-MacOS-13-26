@@ -9,6 +9,12 @@ First we need to install some dependencies with homebrew, if you don't have it, 
 
 Let's run these command in the terminal, it will first add the repository needed to install fuse-t, then it will install the dependencies to build ntfs-3G, and it will install fuse-t, which is fuse without the need of a kernel driver. Their site's at https://www.fuse-t.org
 
+Before fuse-t can be installed, the `/usr/local/include` folder that stores the headers for fuse-t needs to be created, otherwise their install script fails to link them to that location, and the `make install` fails.
+
+```bash
+sudo mkdir -p /usr/local/include
+```
+
 ```bash
 brew tap macos-fuse-t/homebrew-cask
 ```
