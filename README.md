@@ -1,4 +1,14 @@
 # NTFS-MacOS-13-26 UPDATED
+
+> [!IMPORTANT]
+> Disclaimer : Try to use this instead: https://github.com/HuanchuanTech/xntfs
+> 
+> My project was half assed at 17yo while on copious amount of Mango Loco Monster Energy Drink and Ritalin and Gauloises Bleu Cigarettes, so maybe this (clearly AI-Vibe-Coded) project could help you better than mine, but I'm keeping it online for street cred ;3
+
+My project was mode on copious amount of
+
+
+
 How to write on an NTFS drive on macOS 15 Sequoia and macOS 26 Tahoe, for Apple Silicon, without a kernel module.
 
 If you used my old tutorial, check the other file in the repo.
